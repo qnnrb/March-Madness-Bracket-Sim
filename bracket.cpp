@@ -85,7 +85,7 @@ int main(){
     int year;
     cin >> year;
     string yearString = to_string(year);
-    string fileName = "tourneyTeams" + yearString + ".txt";
+    string fileName = "bracket" + yearString + ".txt";
     string outFileName = "testData/" + yearString + "runs.txt";
     const char* removeFile = outFileName.c_str();
     remove(removeFile);
